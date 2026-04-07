@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Tabela </h2>
+    <table border="1">
+        <tr>
+            <th>Livros </th>
+            <th>Quantidades</th>
+        </tr>
+        <tr>
+            <td>Exel 2021</td>
+            <td>200 </td>
+        </tr>
+        <tr>
+            <td>HTML5/CSS3</td>
+            <td>180</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>Editora Senac</caption>
+        <tr>
+            <th>Livros</th>
+            <th>Exel 2021</th>
+            <th>HTML5/CSS3</th>
+        </tr>
+        <tr>
+            <td>Quantidades</td>
+            <td>200</td>
+            <td>180</td>
+        </tr>
+    </table>
+
+    <h2>Mesclar Colunas/Linhas</h2>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">Célula expandida em várias colunas</th>
+        </tr>
+        <tr>
+            <td>Exemplo de colspan</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Março</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h3>      </h3>
+    <table border="1">
+        <tr>
+            <th>Mês</th>
+            <th>Valores</th>
+            <th>Exemplo de Rowspan</th>
+        </tr>
+        <tr>
+            <td>Janeiro</td>
+            <td>30</td>
+            <td rowspan="2">Célula expandida em várias linhas</td>
+        </tr>
+        <tr>
+            <td>Fevereiro</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <caption>Produtos</caption>
+        <tr>
+            <th>Porte</th>
+            <th colspan="2">Marca</th>
+            <th>Preço</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td rowspan="2">Pequeno</td>
+            <td>Vestibulum</td>
+            <td>
+                 <img src="multimidia/multimidia/pq_emb_pequeno1.png" alt="">
+            </td>
+            <td>R$:5,00</td>
+        </tr>
+        <tr>
+            <td>Nunc</td>
+            <td>
+                <img src="multimidia/multimidia/pq_emb_pequeno2.png"alt="">
+            </td>   
+            <td>R$:4,80</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Médio</td>
+            <td>Mollis</td>
+            <td>
+                <img src="multimidia/multimidia/pq_emb_medio1.png" alt="">
+            </td>
+            <td>R$:6,90</td>
+        </tr>
+        <tr>
+            <td>Porttitor</td>
+            <td>
+                <img src="multimidia/multimidia/pq_emb_medio2.png" alt="">
+            </td>
+            <td>R$:3,90</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Grande</td>
+            <td>Lacinia</td>
+            <td>
+                <img src="multimidia/multimidia/pq_emb_grande1.png" alt="">
+            </td>
+            <td>R$:6,90</td>
+        </tr>
+        <tr>
+            <td>Sapien</td>
+            <td>
+                <img src="multimidia/multimidia/pq_emb_grande2.png" alt="">
+            </td>
+            <td>R$:3,90</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Consulte nossos preços para grandes quantidades</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
